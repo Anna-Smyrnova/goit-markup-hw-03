@@ -4,7 +4,9 @@ ul, ol {
     margin-bottom: 0;
     padding-left: 0;
     }
-
+li {
+    padding-left: 0;
+}
 a {
     color: inherit;
     text-decoration: none;
@@ -22,10 +24,9 @@ body {
     background-color: #ffffff;
 }
 .container {
-    width: 1158px;
-    padding-left: 15px;
-    padding-right: 15px;
+    max-width: 1158px;
     margin: 0 auto;
+    padding: 0 15px;
 }
 
 h1, h2, h3, p {
