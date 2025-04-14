@@ -34,13 +34,15 @@ h1, h2, h3, p {
     margin-bottom: 0;
 }
 /*header*/
+.header-box {
+    border-bottom: 1px solid #e7e9fc;
+}
 
 .header-container {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    border-bottom: 1px solid #e7e9fc;
-  }
+     }
 
 .header-nav {
     display: flex;
@@ -243,11 +245,9 @@ font-weight: 700;
 }
 
 .our-team-section-foto-block {
-    width: calc((100% - 72px) / 4); 
-    background: #fff;
-    border-radius: 0 0 4px 4px;
-    object-fit: cover;
-    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+        background-color: #ffffff;
+        width: calc((100% - 72px) / 4);
+        border-radius: 0px 0px 4px 4px;
     }
 
 .team-name-title {
@@ -275,9 +275,7 @@ font-weight: 500;
     flex-direction: row;
     gap: 24px;
     }
-        /*align-items: flex-start;
-        justify-content: flex-start;*/
-
+       
 .our-team-box {
     padding-top: 32px;
     padding-bottom: 32px;}
