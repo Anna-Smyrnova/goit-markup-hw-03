@@ -22,7 +22,7 @@ body {
     background-color: #ffffff;
 }
 .container {
-    max-width: 1158px;
+    width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
     margin-left: auto;
@@ -35,7 +35,7 @@ h1, h2, h3, p {
 }
 /*header*/
 .header-box {
-    border-bottom: 1px solid #e7e9fc;
+border-bottom: 1px solid #e7e9fc;
 }
 
 .header-container {
@@ -84,9 +84,8 @@ font-family: "Raleway", sans-serif;
         gap: 40px;
   }
 
-.link-menu-item {
-padding: 24px 0;
-}
+.link-menu-list {
+padding: 24px 0;}
 
 .link-menu-list:hover
 {
@@ -246,6 +245,7 @@ font-weight: 700;
 
 .our-team-section-foto-block {
         background-color: #ffffff;
+
         width: calc((100% - 72px) / 4);
         border-radius: 0px 0px 4px 4px;
     }
