@@ -80,8 +80,11 @@ font-family: "Raleway", sans-serif;
         justify-content: space-around;
         flex-direction: row;
         gap: 40px;
-        padding: 24px 0
-       }
+  }
+
+.link-menu-item {
+padding: 24px 0;
+}
 
 .link-menu-list:hover
 {
@@ -217,7 +220,7 @@ color: #434455;
 }
 
 .benefits-container-list {
-   width: calc((100% - 72px) / 4); 
+width: calc((100% - 72px) / 4);
 }
 
 
@@ -240,7 +243,7 @@ font-weight: 700;
 }
 
 .our-team-section-foto-block {
-    width: calc((100% - 72px) / 4);
+    width: calc((100% - 72px) / 4); 
     background: #fff;
     border-radius: 0 0 4px 4px;
     object-fit: cover;
