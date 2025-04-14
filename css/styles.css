@@ -221,10 +221,8 @@ color: #434455;
 }
 
 .benefits-container-list {
-width: calc((100% - 72px) / 4);
+width: calc((100%-72px) / 4);
 }
-
-
 /*team*/
 
 .our-team-section {
