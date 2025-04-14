@@ -25,10 +25,7 @@ body {
     width: 1158px;
     padding-left: 15px;
     padding-right: 15px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-top: 0;
-    margin-bottom: 0;
+    margin: 0 auto;
 }
 
 h1, h2, h3, p {
@@ -245,10 +242,9 @@ font-weight: 700;
     margin-bottom: 72px;
 }
 
-.our-team-section-foto-block {
+.our-team-foto-block {
     background-color: #ffffff;
-
-    width: calc((100% - 72px) / 4);
+    width: calc((100% - 72px) /4);
     border-radius: 0px 0px 4px 4px;
     }
 
